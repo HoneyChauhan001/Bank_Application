@@ -19,7 +19,7 @@ public class SBIBankAccount implements Bank{
     public SBIBankAccount(String name, String password) {
         this.name = name;
         this.password = password;
-        this.balance = 0;
+        this.balance = 500;//min balance
         this.accountNumber = String.valueOf(UUID.randomUUID());
         this.roi = 5;
     }
